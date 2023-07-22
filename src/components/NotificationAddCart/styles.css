@@ -1,0 +1,28 @@
+.notification-cart{
+    position: fixed;
+    z-index: 99;
+
+    background-color: white;
+    border: 1px solid rgb(132 204 22);
+    padding: 12px 12px;
+    min-width: 400px;
+
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+
+.notification-cart.open{
+    top: 70px ;
+}
+
+
+.notification-cart.close{
+    top: -250px;
+}
+
+.product-name{
+    font-style: italic;
+    color: rgb(11, 197, 11);
+}
+

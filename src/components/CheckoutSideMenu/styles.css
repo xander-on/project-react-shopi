@@ -1,0 +1,23 @@
+.checkout-side-menu{
+    width: 360px;
+    height: calc(100vh - 68px);
+    transition: all 0.5s ease;
+}
+
+.close-checkout-side-menu{
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.close-checkout-side-menu:hover{
+    box-shadow: 2px 2px 5px black;
+}
+
+.checkout-side-menu.open{
+    top: 68px;
+}
+
+.checkout-side-menu.close{
+    top: 100vh;
+}

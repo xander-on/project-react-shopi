@@ -1,0 +1,24 @@
+.product-detail{
+    width: 360px;
+    height: calc(100vh - 68px);
+    transition: all 0.5s ease;
+}
+
+.close-product-detail{
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.close-product-detail:hover{
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.open{
+    top: 68px;
+}
+
+.close{
+    top: 100vh;
+}
